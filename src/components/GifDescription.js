@@ -1,6 +1,12 @@
-const GifDescription = ({params}) => {
-  const {id} = params;
-  return <div>{id} Testing</div>;
-}
- 
+const GifDescription = ({ params }) => {
+  const { keyword } = params;
+
+  return (
+    <>
+      <div> -{keyword}- Testing ..</div>
+    </>
+  );
+  //return
+};
+
 export default GifDescription;
